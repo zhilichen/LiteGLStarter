@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{20c6c4b8-cb21-4365-88fa-292fff44d074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\algorithms">
+      <UniqueIdentifier>{91306b74-0943-47e6-b846-1a6fae419c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{3aff1894-12e5-4fbc-897f-f20e1de12df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries">
+      <UniqueIdentifier>{18f70e2d-9d4e-4f51-9ea9-eb00fd1c0aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\gl">
+      <UniqueIdentifier>{7cf47ded-1301-4400-974e-334a7b598f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{41dd6740-a1c2-4b44-bbfa-856db2e0c32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bc24fd3d-a581-42ab-9489-206bb26c118e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{feab5a23-bca1-4211-91b2-fe7c520ef020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e6c702b3-a07a-474d-b459-9a2c98285636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithms">
+      <UniqueIdentifier>{e089be42-2958-464f-ba8b-2d9701fea49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{ad66c3f6-07e8-414c-a8d2-318f59be329c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries">
+      <UniqueIdentifier>{93809b80-7ed1-404d-922c-9f81a76268c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{0a9c80d7-54d6-4e29-a1ce-2ddb5bbed39f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries\xml">
+      <UniqueIdentifier>{3603f281-fe6a-46b5-a449-a03c64f0ccb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\xml\tinyxml2.cpp">
+      <Filter>Source Files\libraries\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\GLUTCallback.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\GLUICallback.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\FlowController.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\gl\opengl_essential.h">
+      <Filter>Header Files\libraries\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\GLUTCallback.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\FlowController.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\BasicConfig.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\GLUICallback.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="mainConfig.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

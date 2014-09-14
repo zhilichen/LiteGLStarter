@@ -1,0 +1,11 @@
+<BasicConfig>
+<!-- global settings -->
+<property name="verbose_glut_callback">False</property>
+<!-- window -->
+<property name="title">Test window</property>
+<property name="window_width">1000</property>
+<property name="window_height">800</property>
+
+<!-- animation -->
+<property name="time_step">0.1</property>
+</BasicConfig>
